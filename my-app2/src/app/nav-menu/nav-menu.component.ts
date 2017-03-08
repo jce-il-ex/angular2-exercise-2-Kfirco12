@@ -6,7 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-menu.component.css']
 })
 export class NavMenuComponent implements OnInit {
-
+myList = [
+  {
+    id:1,
+    txt:'Home'
+  },
+  {
+    id:2,
+    txt:'First page'
+  },
+  {
+    id:3,
+    txt:'Second page'
+  },
+  {
+    id:4,
+    txt:'Contact us'
+  }
+];
   constructor() { }
 
   ngOnInit() {
